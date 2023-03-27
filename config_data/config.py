@@ -11,7 +11,7 @@ class Config:
     tg_bot: TgBot
 
 
-def load_config(path: str | None='BOT_TOKEN=5424991242:AAGwomxQz1p46bRi_2m3V7kvJlt5RjK9xr0') -> Config:
+def load_config(path: str | None='/home/gotcrab/PycharmProjects/dogs_vs_cucumers/.env') -> Config:
     env: Env = Env()
     env.read_env(path)
 
